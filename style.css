@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-top {
+  background-color: black;
+  width: auto 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.top {
+  list-style: none;
+}
+.top li {
+  float: left;
+  color: blanchedalmond;
+}
+.top li a {
+  color: blanchedalmond;
+}
+.top li a img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 22px;
+  padding: 4px;
+  margin: 4px;
+  color: blanchedalmond;
+}
+.one {
+  text-align: center;
+  width: 8rem;
+  padding: 4px;
+  margin: 4px;
+  background-color: rgb(145, 196, 68);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1205px) {
+  .header-top {
+        display: none;
+        background-color: blanchedalmond;
+    }
+  .top {
+    display: none;
+  }
+}
+.navbar ul li a:hover{
+    border-bottom: 8px solid orange;
+}
+.collapse{
+    float: right;
+    text-align: center;
+}
+.ul li{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  width: 20rem;
+  padding-top: 15px;
+}
+.ul ul li div{
+  border: none;
+ 
+}
+.youl li{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  width: 20rem;
+  padding-top: 15px;
+  /* padding: 30px; */
+  
+}
+.youl ul li{
+padding-left: 130px;
+margin: 10px;
+}
+
+footer {
+  width: 100%;
+  margin: 0%;
+  margin-top: 20px;
+  padding: 0%;
+  
+  background-color: black;
+}
+.smcards{
+  
+  list-style: none;
+  text-decoration: none;
+}
+.smcards ul{
+  text-align: center;
+  padding-left: 12rem;
+  
+}
+.smcards li{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+.smcards2{
+  list-style: none;
+  text-decoration: none;
+}
+.smcards2 ul{
+  text-align: center;
+  padding-left: 12rem;
+  margin-top: -16px;
+}
+.smcards2 li{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+@media only screen and(min-width: 709px){
+  .youl {
+      padding-left: 20rem;
+  }
+}
